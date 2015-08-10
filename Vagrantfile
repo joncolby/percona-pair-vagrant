@@ -118,7 +118,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
    sudo apt-get update
    sudo cp /vagrant/mysql_override.cnf /etc/mysql/conf.d/
 
-   sudo DEBIAN_FRONTEND=noninteractive apt-get install -y percona-server-server-5.5 percona-server-client-5.5
+   sudo DEBIAN_FRONTEND=noninteractive apt-get install -y percona-server-server-5.5 percona-server-client-5.5 percona-toolkit percona-xtrabackup
    #sudo DEBIAN_FRONTEND=noninteractive
 
 
